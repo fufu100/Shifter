@@ -14,6 +14,7 @@
 		DF9CCF7C24277A1500B23636 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9CCF7B24277A1500B23636 /* main.m */; };
 		DF9CCF8724277A1500B23636 /* ShifterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9CCF8624277A1500B23636 /* ShifterTests.m */; };
 		DF9CCF9224277A1500B23636 /* ShifterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9CCF9124277A1500B23636 /* ShifterUITests.m */; };
+		DF9CCFA12427A37C00B23636 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9CCFA02427A37C00B23636 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		DF9CCF8D24277A1500B23636 /* ShifterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShifterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9CCF9124277A1500B23636 /* ShifterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShifterUITests.m; sourceTree = "<group>"; };
 		DF9CCF9324277A1500B23636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9CCFA02427A37C00B23636 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9CCFA12427A37C00B23636 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +87,7 @@
 				DF9CCF8524277A1500B23636 /* ShifterTests */,
 				DF9CCF9024277A1500B23636 /* ShifterUITests */,
 				DF9CCF6D24277A1200B23636 /* Products */,
+				DF9CCF9F2427A37C00B23636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				DF9CCF9324277A1500B23636 /* Info.plist */,
 			);
 			path = ShifterUITests;
+			sourceTree = "<group>";
+		};
+		DF9CCF9F2427A37C00B23636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CCFA02427A37C00B23636 /* Carbon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
