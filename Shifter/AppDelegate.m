@@ -48,6 +48,8 @@
     [AppDelegate addGlobalHotKey:kVK_ANSI_Q];
     [AppDelegate addGlobalHotKey:kVK_ANSI_W];
     [AppDelegate addGlobalHotKey:kVK_ANSI_P];
+    [AppDelegate addGlobalHotKey:kVK_ANSI_N];
+    [AppDelegate addGlobalHotKey:kVK_ANSI_E];
 }
 
 +(void)addGlobalHotKey:(UInt32)keyCode{
@@ -148,6 +150,12 @@
         [[NSWorkspace sharedWorkspace]openFile:appPath];
     }else if(keyCode == kVK_ANSI_F){
         NSString *appPath = @"/Applications/IntelliJ IDEA.app";
+        [[NSWorkspace sharedWorkspace]openFile:appPath];
+    }else if(keyCode == kVK_ANSI_N){
+        NSString *appPath = @"/System/Applications/Notes.app";
+        [[NSWorkspace sharedWorkspace]openFile:appPath];
+    }else if(keyCode == kVK_ANSI_E){
+        NSString *appPath = @"/Applications/Numbers.app";
         [[NSWorkspace sharedWorkspace]openFile:appPath];
     }
     
